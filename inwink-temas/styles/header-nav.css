@@ -1,0 +1,31 @@
+/* =========================================================
+   South Summit · Cabecera (nav) · Global Styles
+   Pegar como bloque NUEVO en BO > Herramientas webmaster > Estilos globales.
+   Selectores reales tomados del DevTools (#appheadermenu, .menuitem.level-1, a.level-1).
+   ========================================================= */
+
+/* Entradas principales en mayúsculas, 14px, como el prototipo (.menu) */
+#appheadermenu .menuitem.level-1 > a.level-1 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* Más aire entre entradas (prototipo: 22px entre elementos) */
+#appheadermenu .menuitem.level-1 {
+  margin: 0 11px;
+}
+
+/* Sign in (última entrada) a la derecha; el resto sigue centrado */
+#appheadermenu {
+  position: relative;
+}
+
+#appheadermenu .menuitem.level-1:last-child {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
