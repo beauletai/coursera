@@ -1,5 +1,5 @@
 /* =========================================================
-   South Summit · Cabecera (nav) · Global Styles · v5
+   South Summit · Cabecera (nav) · Global Styles · v6
    Sustituye al bloque anterior en BO > Webmaster > Estilos globales (CSS).
    Selectores reales del DevTools: #appheadermenu, .menuitem.level-1,
    a.iconlink.level-1, div.sub-menu-button.
@@ -92,9 +92,39 @@
 #approot .sub-menu-items a.submenu.level-2[aria-label="Madrid"]::after { content: "June 2–4 2027"; }
 #approot .sub-menu-items a.submenu.level-2[aria-label="Brazil"]::after { content: "[Date]"; }
 #approot .sub-menu-items a.submenu.level-2[aria-label="Bilbao"]::after { content: "[Date]"; }
-#approot .sub-menu-items a.submenu.level-2[aria-label="Scaleup + Venture"]::after { content: "Series across cities"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="International Events"]::after { content: "Series across cities"; }
 
 /* Ways to Engage */
 #approot .sub-menu-items a.submenu.level-2[aria-label="Discover"]::after { content: "Get the picture"; }
 #approot .sub-menu-items a.submenu.level-2[aria-label="Connect"]::after { content: "Find what is relevant"; }
 #approot .sub-menu-items a.submenu.level-2[aria-label="Lead"]::after { content: "Go deeper"; }
+
+/* ---------------------------------------------------------
+   Panel del desplegable como el prototipo (.ddm):
+   esquinas redondeadas, sombra suave y animación al abrir.
+   Selector real: div.sub-menu-modal-content (con .hidden cuando está cerrado).
+   --------------------------------------------------------- */
+#approot .sub-menu-modal-content {
+  border-radius: 18px;
+  padding: 8px;
+  min-width: 250px;
+  box-shadow: 0 18px 48px rgba(35, 6, 46, 0.18);
+  overflow: hidden;
+  transform-origin: top center;
+}
+
+#approot .sub-menu-modal-content:not(.hidden) {
+  animation: ss-dropdown-in 180ms ease-out;
+}
+
+@keyframes ss-dropdown-in {
+  from { opacity: 0; transform: translateY(-6px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Accesibilidad: sin animación si el usuario lo tiene desactivado en su sistema */
+@media (prefers-reduced-motion: reduce) {
+  #approot .sub-menu-modal-content:not(.hidden) {
+    animation: none;
+  }
+}
