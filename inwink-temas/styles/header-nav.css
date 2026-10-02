@@ -1,5 +1,5 @@
 /* =========================================================
-   South Summit · Cabecera (nav) · Global Styles · v4
+   South Summit · Cabecera (nav) · Global Styles · v5
    Sustituye al bloque anterior en BO > Webmaster > Estilos globales (CSS).
    Selectores reales del DevTools: #appheadermenu, .menuitem.level-1,
    a.iconlink.level-1, div.sub-menu-button.
@@ -56,3 +56,45 @@
   transform: translateY(-50%);
   margin: 0;
 }
+
+/* ---------------------------------------------------------
+   Desplegables (Events / Ways to Engage) como el prototipo (.ddm)
+   inwink no pinta la descripción de las entradas: el subtítulo se
+   añade aquí, por el aria-label real de cada enlace.
+   Para cambiar una fecha, edita su línea "content".
+   --------------------------------------------------------- */
+#approot .sub-menu-items .menuitem.level-2 a.submenu.level-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  text-transform: none;
+}
+
+#approot .sub-menu-items .menuitem.level-2 a.submenu.level-2:hover {
+  background: #F4EDF3;
+}
+
+#approot .sub-menu-items .menuitem.level-2 a.submenu.level-2::after {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #6B5670;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Events */
+#approot .sub-menu-items a.submenu.level-2[aria-label="Madrid"]::after { content: "June 2–4 2027"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Brazil"]::after { content: "[Date]"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Bilbao"]::after { content: "[Date]"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Scaleup + Venture"]::after { content: "Series across cities"; }
+
+/* Ways to Engage */
+#approot .sub-menu-items a.submenu.level-2[aria-label="Discover"]::after { content: "Get the picture"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Connect"]::after { content: "Find what is relevant"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Lead"]::after { content: "Go deeper"; }
