@@ -1,0 +1,395 @@
+{
+  "languages": [
+    "fr"
+  ],
+  "blocs": [
+    {
+      "id": "027bea74-4728-42e0-a43e-35c5ec121bfe",
+      "type": "bloc",
+      "properties": {},
+      "contentLayout": "flex300",
+      "content": [
+        {
+          "id": "e72748e4-49fa-4403-b4e4-fdbcd7e0a6a9",
+          "type": "teasereventinfos",
+          "header": {
+            "description": {
+              "en": "Connecting the people building what's next. Madrid, Brazil, Bilbao and the Scaleup + Venture series."
+            },
+            "picture": "https://api-frontassets.inwink.com/community/7eb8755d-b9bc-f111-a6a9-6045bd93f719/asset/7a78bef6-98bd-f111-a6a9-6045bdf5ca6d/file/image.webp?mw=1920",
+            "preTitle": {
+              "en": ""
+            },
+            "title": {
+              "en": ""
+            }
+          },
+          "properties": {
+            "links": []
+          },
+          "layout": {
+            "header": {
+              "position": "left",
+              "size": "small"
+            }
+          }
+        },
+        {
+          "id": "79fee68a-e4b2-4050-c14e-ecbd6527c9c6",
+          "type": "teasereventinfos",
+          "header": {
+            "description": {
+              "en": ""
+            },
+            "preTitle": {
+              "en": ""
+            },
+            "title": {
+              "en": "Events"
+            }
+          },
+          "properties": {
+            "links": [
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Madrid"
+                },
+                "description": {
+                  "en": ""
+                },
+                "link": {},
+                "id": "faa38da4-de51-4aa6-8b45-d6348ad55258"
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Brazil"
+                },
+                "description": {
+                  "en": ""
+                },
+                "id": "2459bf2e-1db6-4417-9b0d-a609234464fb",
+                "link": {}
+              },
+              {
+                "description": {
+                  "en": ""
+                },
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Bilbao"
+                },
+                "link": {},
+                "id": "28f1ed08-d639-48d1-8705-9f8abbd4d45c"
+              },
+              {
+                "description": {
+                  "en": ""
+                },
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "International Events"
+                },
+                "link": {},
+                "id": "26f9a274-f581-495c-8132-ba6c2c1a326d"
+              }
+            ]
+          },
+          "layout": {
+            "header": {
+              "position": "left",
+              "size": "small"
+            }
+          },
+          "customCSS": ""
+        },
+        {
+          "id": "7d109955-6fd2-4421-9f41-a59f418eb7b4",
+          "type": "teasereventinfos",
+          "header": {
+            "description": {
+              "en": ""
+            },
+            "preTitle": {
+              "en": ""
+            },
+            "title": {
+              "en": "Ways to Engage"
+            }
+          },
+          "properties": {
+            "links": [
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Discover"
+                },
+                "description": {
+                  "en": ""
+                },
+                "link": {},
+                "id": "ef9f7eae-7bc0-498c-f4ee-35ca19041ced",
+                "disabled": false
+              },
+              {
+                "id": "74a96a45-50c3-4a1d-e310-b10d6520efec",
+                "link": {},
+                "label": {
+                  "en": "Connect"
+                },
+                "icon": {
+                  "className": ""
+                },
+                "description": {
+                  "en": ""
+                },
+                "disabled": false
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Lead"
+                },
+                "description": {
+                  "en": ""
+                },
+                "id": "3459bf2e-1db6-4417-9b0d-a609234464fb",
+                "link": {},
+                "disabled": false
+              }
+            ]
+          },
+          "layout": {
+            "header": {
+              "position": "left",
+              "size": "small"
+            }
+          },
+          "customCSS": ""
+        },
+        {
+          "header": {
+            "description": {
+              "en": ""
+            },
+            "preTitle": {
+              "en": ""
+            },
+            "title": {
+              "en": "About us"
+            }
+          },
+          "layout": {
+            "header": {
+              "position": "left",
+              "size": "small"
+            }
+          },
+          "properties": {
+            "links": [
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Company"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Press"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Blog"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Sustainability"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Careers"
+                },
+                "link": {}
+              }
+            ]
+          },
+          "type": "teasereventinfos",
+          "id": "1c4a2f2c-114e-4f34-be47-597fada8f4bc"
+        },
+        {
+          "header": {
+            "description": {
+              "en": ""
+            },
+            "preTitle": {
+              "en": ""
+            },
+            "title": {
+              "en": "Support"
+            }
+          },
+          "layout": {
+            "header": {
+              "position": "left",
+              "size": "small"
+            }
+          },
+          "properties": {
+            "links": [
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "FAQs"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Contact us"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Partner with us"
+                },
+                "link": {}
+              }
+            ]
+          },
+          "type": "teasereventinfos",
+          "id": "cc54f96a-6026-4dd2-a094-352567389d2c"
+        },
+        {
+          "header": {
+            "description": {
+              "en": "© 2027, South Summit"
+            },
+            "preTitle": {
+              "en": ""
+            },
+            "title": {
+              "en": ""
+            }
+          },
+          "layout": {
+            "header": {
+              "position": "left",
+              "size": "small"
+            }
+          },
+          "properties": {
+            "links": [
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Terms"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Privacy"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Legal"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Cookies"
+                },
+                "link": {}
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Compliance"
+                },
+                "link": {}
+              }
+            ]
+          },
+          "type": "teasereventinfos",
+          "id": "01d90c9a-fa75-4093-a6fc-58c5a8acfcf5",
+          "customCSS": "/* franja final: copyright a la izquierda y legales a la derecha en la MISMA linea.\n   inwink apila cabecera y enlaces, asi que los enlaces se anclan a la derecha\n   sobre la linea del copyright (ambos con alto de linea 20px). */\n##contentid {\n  position: relative;\n}\n\n##contentid .bloc-header {\n  margin: 0;\n  padding: 0;\n  width: auto;\n  min-height: 20px;\n}\n\n##contentid .bloc-header .description {\n  font-size: 13px;\n  line-height: 20px;\n  color: #6B5670;\n  white-space: nowrap;\n  margin: 0;\n  padding: 0;\n}\n\n##contentid .bloc-content {\n  position: absolute;\n  right: 0;\n  top: 24px; /* = padding-top de la franja: misma linea que el copyright */\n  height: 20px;\n  display: flex;\n  flex-wrap: nowrap;\n  justify-content: flex-end;\n  align-items: center;\n  gap: 20px;\n  margin: 0;\n  padding: 0;\n}\n\n##contentid .bloc-content .inwink-item {\n  width: auto;\n  margin: 0;\n  padding: 0;\n}\n\n##contentid .contentpagelink,\n##contentid .contentpagelink .detail {\n  margin: 0;\n  padding: 0;\n  min-height: 0;\n}\n\n##contentid .contentpagelink .detail .title {\n  font-size: 13px;\n  line-height: 20px;\n  margin: 0;\n}\n\n/* tablet y movil: enlaces debajo del copyright, alineados a la izquierda */\n@media screen and (max-width: 900px) {\n  ##contentid .bloc-content {\n    position: static;\n    height: auto;\n    flex-wrap: wrap;\n    justify-content: flex-start;\n    gap: 8px 20px;\n    margin-top: 12px;\n  }\n}"
+        },
+        {
+          "id": "e915af58-3fbc-4971-8675-3414e2896513",
+          "type": "poweredby",
+          "properties": {
+            "label": {
+              "fr": "Powered by",
+              "en": "Powered by"
+            },
+            "logo": ""
+          },
+          "customCSS": "",
+          "disabled": true
+        }
+      ],
+      "customCSS": "/* Footer South Summit (fiel al prototipo) */\n##blocid {\n  border-top: 1px solid rgba(55, 12, 59, 0.16);\n}\n\n##blocid .dynamicbloc-wrapper-contentblocs {\n  max-width: 1240px;\n  margin: 0 auto;\n  padding: 48px 40px;\n  box-sizing: border-box;\n  display: grid;\n  grid-template-columns: minmax(0, 260px) repeat(4, minmax(0, 1fr));\n  column-gap: 32px;\n  row-gap: 40px;\n  align-items: start;\n}\n\n##blocid .dynamicbloc-wrapper-contentblocs > * {\n  width: auto;\n  min-width: 0;\n  max-width: none;\n  margin: 0;\n}\n\n/* Cabeceras de columna */\n##blocid .dynamiccontentbloc .bloc-header {\n  max-width: none;\n  width: 100%;\n  margin: 0 0 14px;\n}\n\n/* Columnas 2-5: titulo con el simbolo oficial de marca (circulo amarillo + lambda morada) */\n##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5) .bloc-header {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  font-size: 13px;\n  font-weight: 500;\n  text-transform: uppercase;\n  color: #370C3B;\n}\n\n##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5) .bloc-header::before {\n  content: \"\";\n  display: block;\n  flex: none;\n  width: 26px;\n  height: 26px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1932 1932'%3E%3Ccircle cx='966' cy='966' r='966' fill='%23FFDE68'/%3E%3Cpath fill='%23370C3B' d='M762 409H962L666 1522H463ZM968 409H1170L1468 1522H1265Z'/%3E%3C/svg%3E\");\n  background-repeat: no-repeat;\n  background-position: center;\n  background-size: contain;\n}\n\n/* Columnas 2-5: enlaces alineados con el texto del titulo (icono 26px + hueco 12px) */\n##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5) .bloc-content {\n  padding-left: 38px;\n}\n\n/* Columna marca: logo alineado a la izquierda, encima de la frase */\n##blocid .dynamicbloc-wrapper-contentblocs > :first-child .bloc-header {\n  text-align: left;\n  align-items: flex-start;\n}\n\n##blocid .dynamicbloc-wrapper-contentblocs > :first-child .bloc-header img {\n  display: block;\n  height: 32px;\n  width: auto;\n  margin: 0 0 16px 0;\n}\n\n##blocid .bloc-header .description {\n  font-size: 14px;\n  line-height: 1.5;\n  color: #6B5670;\n  text-align: left;\n}\n\n/* Enlaces: minuscula, 14px, color secundario */\n##blocid .contentpagelink .detail .title {\n  text-transform: none;\n  font-size: 14px;\n  font-weight: normal;\n  line-height: 1.5;\n  color: #6B5670;\n}\n\n##blocid .contentpagelink:hover .detail .title {\n  color: #D3306F;\n}\n\n##blocid .contentpagelink .iconplaceholder {\n  display: none;\n}\n\n/* Franja final (6o contenido): copyright y legales en una fila */\n##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(6) {\n  grid-column: 1 / -1;\n  padding-top: 24px;\n  border-top: 1px solid rgba(55, 12, 59, 0.16);\n}\n\n/* Powered by: oculto */\n##blocid .bloc-poweredby {\n  display: none;\n}\n\n/* escritorio: titulos y enlaces en una sola linea */\n@media screen and (min-width: 901px) {\n  ##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5) .bloc-header,\n  ##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5) .contentpagelink .detail .title {\n    white-space: nowrap;\n  }\n}\n\n@media screen and (max-width: 900px) {\n  ##blocid .dynamicbloc-wrapper-contentblocs {\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    padding: 40px 20px;\n  }\n  ##blocid .dynamicbloc-wrapper-contentblocs > :first-child {\n    grid-column: 1 / -1;\n  }\n}\n\n@media screen and (max-width: 600px) {\n  ##blocid .dynamicbloc-wrapper-contentblocs {\n    grid-template-columns: minmax(0, 1fr);\n  }\n}\n\n/* Acordeon movil: estado ABIERTO (la clase is-open la pone el script global footer-mobile-accordion).\n   .is-open repetido para ganar en especificidad a la regla global que oculta los enlaces. */\n@media screen and (max-width: 600px) {\n  ##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5).is-open.is-open .bloc-content,\n  ##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5) .is-open.is-open .bloc-content {\n    display: block;\n  }\n  ##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5).is-open.is-open .bloc-header::after,\n  ##blocid .dynamicbloc-wrapper-contentblocs > :nth-child(n+2):nth-child(-n+5) .is-open.is-open .bloc-header::after {\n    transform: translateY(-30%) rotate(-135deg);\n  }\n}",
+      "themePreset": "whitebloc"
+    }
+  ],
+  "metadata": {}
+}
