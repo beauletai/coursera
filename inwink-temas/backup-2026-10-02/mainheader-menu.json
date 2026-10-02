@@ -1,0 +1,176 @@
+{
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "blocs": [
+    {
+      "content": [
+        {
+          "id": "menuitems",
+          "type": "menuitems",
+          "properties": {
+            "align": "right",
+            "itemClassName": "headline",
+            "items": [
+              {
+                "description": {},
+                "icon": {
+                  "className": ""
+                },
+                "items": [
+                  {
+                    "description": {
+                      "en": "June 2–4 2027"
+                    },
+                    "icon": {
+                      "className": ""
+                    },
+                    "label": {
+                      "en": "Madrid"
+                    },
+                    "link": {}
+                  },
+                  {
+                    "description": {
+                      "en": "[Date]"
+                    },
+                    "icon": {
+                      "className": ""
+                    },
+                    "label": {
+                      "en": "Brazil"
+                    },
+                    "link": {}
+                  },
+                  {
+                    "description": {
+                      "en": "[Date]"
+                    },
+                    "icon": {
+                      "className": ""
+                    },
+                    "label": {
+                      "en": "Bilbao"
+                    },
+                    "link": {}
+                  },
+                  {
+                    "description": {
+                      "en": "Series across cities"
+                    },
+                    "icon": {
+                      "className": ""
+                    },
+                    "label": {
+                      "en": "International Events"
+                    },
+                    "link": {}
+                  }
+                ],
+                "label": {
+                  "en": "Events"
+                },
+                "link": {},
+                "role": "default",
+                "id": "b8ab7238-d159-45f1-ab33-e48ce6ea1ef1"
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "items": [
+                  {
+                    "description": {
+                      "en": "Get the picture"
+                    },
+                    "icon": {
+                      "className": ""
+                    },
+                    "label": {
+                      "en": "Discover"
+                    },
+                    "link": {}
+                  },
+                  {
+                    "description": {
+                      "en": "Find what is relevant"
+                    },
+                    "icon": {
+                      "className": ""
+                    },
+                    "label": {
+                      "en": "Connect"
+                    },
+                    "link": {}
+                  },
+                  {
+                    "description": {
+                      "en": "Go deeper"
+                    },
+                    "icon": {
+                      "className": ""
+                    },
+                    "label": {
+                      "en": "Lead"
+                    },
+                    "link": {}
+                  }
+                ],
+                "label": {
+                  "en": "Ways to Engage"
+                },
+                "link": {},
+                "role": "default",
+                "description": {},
+                "id": "8e087c93-aad8-4bc0-baeb-08a4c84e1b86"
+              },
+              {
+                "displayOptions": {
+                  "isSecondary": true
+                },
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "For Business"
+                },
+                "link": {},
+                "role": "button",
+                "description": {},
+                "id": "55fc7120-756c-45ce-9ec5-048ca7553bf3"
+              },
+              {
+                "icon": {
+                  "className": ""
+                },
+                "label": {
+                  "en": "Tickets"
+                },
+                "link": {},
+                "role": "button",
+                "description": {},
+                "id": "a7e65987-0d89-4172-bcaa-48c7f9c47864"
+              },
+              {
+                "icon": {
+                  "className": "inwink-user"
+                },
+                "label": {
+                  "en": "Sign in"
+                },
+                "link": {
+                  "action": "login"
+                },
+                "role": "default",
+                "description": {},
+                "id": "1499575c-61c3-47bd-93b6-4f37849a6ab5"
+              }
+            ]
+          }
+        }
+      ],
+      "id": "809c022c-574d-4759-b064-d3ee0671b956"
+    }
+  ]
+}

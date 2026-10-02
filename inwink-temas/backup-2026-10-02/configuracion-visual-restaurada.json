@@ -1,0 +1,518 @@
+{
+  "global": {
+    "mainColor": "#fd525b",
+    "secondaryColor": "#f14283",
+    "lightColor": "#fcfaf7",
+    "darkColor": "#370c3b",
+    "colorPalette": [
+      {
+        "colorCode": "#c2a8b8"
+      },
+      {
+        "colorCode": "#908698"
+      },
+      {
+        "colorCode": "#5d4a6c"
+      },
+      {
+        "colorCode": "#fd525b"
+      },
+      {
+        "colorCode": "#fa6b4c"
+      },
+      {
+        "colorCode": "#f14283"
+      }
+    ],
+    "eventLogo": "https://api-frontassets.inwink.com/community/7eb8755d-b9bc-f111-a6a9-6045bd93f719/asset/7a78bef6-98bd-f111-a6a9-6045bdf5ca6d/file/image.webp?mw=1920",
+    "eventLogoAsset": "inwinkasset://c/7eb8755d-b9bc-f111-a6a9-6045bd93f719/7a78bef6-98bd-f111-a6a9-6045bdf5ca6d"
+  },
+  "splashscreen": {
+    "backgroundColor": "#FFFFFF",
+    "color": "#370C3B",
+    "spinnerColor": "#F14283"
+  },
+  "appHeader": {
+    "buttons": {
+      "active": {
+        "backgroundColor": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "backgroundImage": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "border": "none",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "checked": {
+        "backgroundColor": "#EA6A50",
+        "backgroundImage": "none",
+        "border": "1.5px solid #EA6A50",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "hover": {
+        "backgroundColor": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "backgroundImage": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "border": "none",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "standard": {
+        "backgroundColor": "linear-gradient(100deg, #F14283, #EA6A50)",
+        "backgroundImage": "linear-gradient(100deg, #F14283, #EA6A50)",
+        "border": "none",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      }
+    },
+    "colors": {
+      "accent2Color": "#EA6A50",
+      "accentColor": "#F14283",
+      "bgColor": "#FFFFFF",
+      "darkColor": "#23062E",
+      "defaultColor": "#370C3B",
+      "lightColor": "#F1E8F1"
+    },
+    "lightButtons": {
+      "active": {
+        "backgroundColor": "#370C3B",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "checked": {
+        "backgroundColor": "#370C3B",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "hover": {
+        "backgroundColor": "#370C3B",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "standard": {
+        "backgroundColor": "transparent",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#370C3B",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      }
+    },
+    "style": {
+      "backgroundColor": "#FFFFFF",
+      "color": "#370C3B"
+    },
+    "logo": "https://api-frontassets.inwink.com/community/7eb8755d-b9bc-f111-a6a9-6045bd93f719/asset/7a78bef6-98bd-f111-a6a9-6045bdf5ca6d/file/image.webp?mw=1920",
+    "settings": {
+      "alignItems": "center",
+      "enableSubMenuArrow": true
+    }
+  },
+  "appMenu": {
+    "colors": {
+      "accent2Color": "#EA6A50",
+      "accentColor": "#F14283",
+      "bgColor": "#FFFFFF",
+      "darkColor": "#23062E",
+      "defaultColor": "#370C3B",
+      "lightColor": "#F1E8F1"
+    },
+    "links": {
+      "standard": {
+        "color": "#370C3B"
+      }
+    },
+    "style": {
+      "backgroundColor": "#FFFFFF",
+      "color": "#370C3B"
+    }
+  },
+  "fonts": {
+    "defaultFontFamily": "TWK Everett Regular",
+    "headlineFontFamily": "TWK Everett Medium",
+    "fonts": [
+      {
+        "fontUrl": "https://storageprdv2inwink.blob.core.windows.net/191ec213-8dc1-4fb4-87f8-4060c50c81bb-public/assets/documents/62714657-0ad5-f011-8195-0022488a3e24/639008868849148103/%2540font-face%2520%257B.css",
+        "fontFamily": "TWK Everett Regular"
+      },
+      {
+        "fontUrl": "https://storageprdv2inwink.blob.core.windows.net/191ec213-8dc1-4fb4-87f8-4060c50c81bb-public/assets/documents/5def4837-08d5-f011-8195-0022488a3e24/639008859807417209/TWKEverett-Medium-web.woff",
+        "fontFamily": "TWK Everett Medium"
+      }
+    ]
+  },
+  "icons": {
+    "favicon": "https://api-frontassets.inwink.com/community/7eb8755d-b9bc-f111-a6a9-6045bd93f719/asset/a6977974-9abd-f111-a6a9-6045bdf5ca6d/file/cumbre-20png-20bea.webp?mw=1920",
+    "faviconAsset": "inwinkasset://c/7eb8755d-b9bc-f111-a6a9-6045bd93f719/a6977974-9abd-f111-a6a9-6045bdf5ca6d",
+    "appleicon": "https://api-frontassets.inwink.com/community/7eb8755d-b9bc-f111-a6a9-6045bd93f719/asset/a6977974-9abd-f111-a6a9-6045bdf5ca6d/file/cumbre-20png-20bea.webp?mw=1920",
+    "appleiconAsset": "inwinkasset://c/7eb8755d-b9bc-f111-a6a9-6045bd93f719/a6977974-9abd-f111-a6a9-6045bdf5ca6d"
+  },
+  "id": "ccbc7335-5fe8-e611-80c3-000d3a2191cc",
+  "eventId": "9f1cf36d-0be7-e611-80c3-000d3a20f0be",
+  "tinyUrl": "visualconfig",
+  "contentType": "config",
+  "application": "event",
+  "state": "preview",
+  "disabled": false,
+  "config": {
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "blocs": [
+      {
+        "content": [
+          {
+            "id": "menuitems",
+            "type": "menuitems",
+            "properties": {
+              "align": "right",
+              "itemClassName": "headline",
+              "itemStyle": {
+                "fontWeight": "bold"
+              },
+              "items": [
+                {
+                  "link": {
+                    "target": "allexhibitors"
+                  },
+                  "label": {
+                    "fr": "Exposants",
+                    "en": "Exhibitors",
+                    "ja": "#Exposants"
+                  },
+                  "id": "1a361a82-4fb1-46a5-dbac-1e53a5632198"
+                },
+                {
+                  "link": {
+                    "target": "/"
+                  },
+                  "label": {
+                    "fr": "Accueil",
+                    "en": "Home",
+                    "ja": "#Accueil"
+                  },
+                  "icon": {
+                    "className": "inwink-house"
+                  },
+                  "id": "de75b3f1-b792-4536-e037-ccae60c08eed"
+                },
+                {
+                  "link": {
+                    "target": "allsessions"
+                  },
+                  "label": {
+                    "fr": "Sessions",
+                    "en": "Sessions",
+                    "ja": "#Sessions"
+                  },
+                  "id": "6d5c2090-f62d-48a3-ad9d-a836f2c5d6f0"
+                },
+                {
+                  "link": {
+                    "target": "allspeakers"
+                  },
+                  "label": {
+                    "fr": "Speakers",
+                    "en": "Speakers",
+                    "ja": "#Speakers"
+                  },
+                  "id": "2cf26279-cb7a-4c1e-9e4e-56500e785c03"
+                },
+                {
+                  "link": {
+                    "registration": "purchase"
+                  },
+                  "role": "button",
+                  "label": {
+                    "fr": "Billeterie",
+                    "en": "Tickets",
+                    "ja": "#Billeterie"
+                  },
+                  "id": "b5be5a58-e353-4a73-ac76-0f997947b0ea",
+                  "icon": {
+                    "className": ""
+                  }
+                },
+                {
+                  "link": {
+                    "share": "facebook"
+                  },
+                  "label": {},
+                  "icon": {
+                    "className": "inwink-facebook-logo"
+                  },
+                  "id": "63139c23-b4d1-4ee5-a3a4-bf23b02a1ff0"
+                },
+                {
+                  "link": {
+                    "share": "linkedin"
+                  },
+                  "label": {},
+                  "icon": {
+                    "className": "inwink-linkedin-big-logo"
+                  },
+                  "id": "fab05a40-7032-44db-c410-bee5a89cf88b"
+                },
+                {
+                  "link": {
+                    "share": "twitter"
+                  },
+                  "label": {},
+                  "icon": {
+                    "className": "inwink-twitter-letter-logo"
+                  },
+                  "id": "4b3f7ddc-bb36-4cf8-d362-b4a6f392c30f"
+                },
+                {
+                  "id": "4ad18c55-5b73-4b05-c06d-35e37b51ad75",
+                  "link": {
+                    "content": "tickets"
+                  },
+                  "label": {
+                    "en": "Billetterie GP",
+                    "fr": "Billetterie GP",
+                    "es": "Billetterie GP",
+                    "de": "Billetterie GP",
+                    "ru": "Billetterie GP",
+                    "ja": "Billetterie GP",
+                    "tr": "Billetterie GP"
+                  },
+                  "icon": {
+                    "className": ""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "id": "809c022c-574d-4759-b064-d3ee0671b956"
+      }
+    ]
+  },
+  "modifiedByDisplayName": "root@inwink.ninja",
+  "validFrom": "2018-02-01T17:01:25.22",
+  "validTo": "9999-12-31T23:59:59.99",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "blocs": [
+    {
+      "content": [
+        {
+          "id": "menuitems",
+          "type": "menuitems",
+          "properties": {
+            "align": "right",
+            "itemClassName": "headline",
+            "itemStyle": {
+              "fontWeight": "bold"
+            },
+            "items": [
+              {
+                "link": {
+                  "target": "/"
+                },
+                "label": {
+                  "fr": "Accueil",
+                  "en": "Home",
+                  "ja": "#Accueil"
+                },
+                "icon": {
+                  "className": "inwink-house"
+                },
+                "id": "de75b3f1-b792-4536-e037-ccae60c08eed"
+              },
+              {
+                "link": {
+                  "target": "allexhibitors"
+                },
+                "label": {
+                  "fr": "Exposants",
+                  "en": "Exhibitors",
+                  "ja": "#Exposants"
+                },
+                "id": "1a361a82-4fb1-46a5-dbac-1e53a5632198"
+              },
+              {
+                "link": {
+                  "target": "allsessions"
+                },
+                "label": {
+                  "fr": "Sessions",
+                  "en": "Sessions",
+                  "ja": "#Sessions"
+                },
+                "id": "6d5c2090-f62d-48a3-ad9d-a836f2c5d6f0"
+              },
+              {
+                "link": {
+                  "target": "allspeakers"
+                },
+                "label": {
+                  "fr": "Speakers",
+                  "en": "Speakers",
+                  "ja": "#Speakers"
+                },
+                "id": "2cf26279-cb7a-4c1e-9e4e-56500e785c03"
+              },
+              {
+                "link": {
+                  "registration": "purchase"
+                },
+                "role": "button",
+                "label": {
+                  "fr": "Billeterie",
+                  "en": "Tickets",
+                  "ja": "#Billeterie"
+                },
+                "id": "b5be5a58-e353-4a73-ac76-0f997947b0ea",
+                "icon": {
+                  "className": ""
+                }
+              },
+              {
+                "link": {
+                  "share": "facebook"
+                },
+                "label": {},
+                "icon": {
+                  "className": "inwink-facebook-logo"
+                },
+                "id": "63139c23-b4d1-4ee5-a3a4-bf23b02a1ff0"
+              },
+              {
+                "link": {
+                  "share": "linkedin"
+                },
+                "label": {},
+                "icon": {
+                  "className": "inwink-linkedin-big-logo"
+                },
+                "id": "fab05a40-7032-44db-c410-bee5a89cf88b"
+              },
+              {
+                "link": {
+                  "share": "twitter"
+                },
+                "label": {},
+                "icon": {
+                  "className": "inwink-twitter-letter-logo"
+                },
+                "id": "4b3f7ddc-bb36-4cf8-d362-b4a6f392c30f"
+              },
+              {
+                "id": "4ad18c55-5b73-4b05-c06d-35e37b51ad75",
+                "link": {
+                  "content": "tickets"
+                },
+                "label": {
+                  "en": "Billetterie GP",
+                  "fr": "Billetterie GP",
+                  "es": "Billetterie GP",
+                  "de": "Billetterie GP",
+                  "ru": "Billetterie GP",
+                  "ja": "Billetterie GP",
+                  "tr": "Billetterie GP"
+                },
+                "icon": {
+                  "className": ""
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "id": "809c022c-574d-4759-b064-d3ee0671b956"
+    }
+  ],
+  "partnerWrkMenu": {
+    "colors": {
+      "bgColor": "#2e2e2e",
+      "accentColor": "#179c24",
+      "accent2Color": "#ffffff"
+    },
+    "style": {
+      "backgroundColor": "#2e2e2e",
+      "color": "#ffffff"
+    },
+    "accent": {
+      "color": "#179c24"
+    },
+    "accentBg": {
+      "backgroundColor": "#179c24"
+    },
+    "accentBorder": {
+      "borderColor": "#179c24"
+    },
+    "accent2": {
+      "color": "#ffffff"
+    },
+    "accent2Bg": {
+      "backgroundColor": "#ffffff"
+    },
+    "accent2Border": {
+      "borderColor": "#ffffff"
+    },
+    "title": {
+      "color": "#ffffff"
+    }
+  },
+  "appFooter": {
+    "pretitle": {
+      "color": "#d6aeae"
+    },
+    "colors": {
+      "bgColor": "rgba(240,112,112, 1)",
+      "defaultColor": "#47fc93",
+      "accentColor": "#2c92dc"
+    },
+    "style": {
+      "backgroundColor": "rgba(240,112,112, 1)",
+      "color": "#47fc93"
+    },
+    "card": {
+      "style": {
+        "backgroundColor": "rgba(175,129,129, 1)"
+      }
+    },
+    "accent": {
+      "color": "#2c92dc"
+    },
+    "accentBg": {
+      "backgroundColor": "#2c92dc"
+    },
+    "accentBorder": {
+      "borderColor": "#2c92dc"
+    }
+  },
+  "primaryColor": "#fd525b"
+}

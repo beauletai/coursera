@@ -1,0 +1,130 @@
+/* =========================================================
+   South Summit · Cabecera (nav) · Global Styles · v6
+   Sustituye al bloque anterior en BO > Webmaster > Estilos globales (CSS).
+   Selectores reales del DevTools: #appheadermenu, .menuitem.level-1,
+   a.iconlink.level-1, div.sub-menu-button.
+   ========================================================= */
+
+/* Entradas principales en mayúsculas, 14px, como el prototipo (.menu) */
+#approot #appheadermenu .menuitem.level-1 a.iconlink.level-1,
+#approot #appheadermenu .menuitem.level-1 a.iconlink.level-1 span {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* Más aire entre entradas (prototipo: 22px entre elementos) */
+#approot #appheadermenu .menuitem.level-1 {
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+/* Flecha de desplegable: sin círculo, solo la flecha en morado (color del texto) */
+#approot #appheadermenu .sub-menu-button,
+#approot #appheadermenu .sub-menu-button * {
+  background: transparent;
+  background-color: transparent;
+  background-image: none;
+  border: 0;
+  box-shadow: none;
+  color: #370C3B;
+}
+
+#approot #appheadermenu .sub-menu-button {
+  margin-left: 4px;
+}
+
+/* Barra un poco más alta (prototipo ~70px): relleno arriba/abajo, SIN altura fija
+   para no recortar los desplegables (.sub-menu-modal-content) */
+#approot .headercontent.withheaderitems {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  box-sizing: content-box;
+  overflow: visible;
+}
+
+/* Sign in (última entrada) a la derecha; el resto sigue centrado */
+#approot #appheadermenu {
+  position: relative;
+}
+
+#approot #appheadermenu .menuitem.level-1:last-child {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+
+/* ---------------------------------------------------------
+   Desplegables (Events / Ways to Engage) como el prototipo (.ddm)
+   inwink no pinta la descripción de las entradas: el subtítulo se
+   añade aquí, por el aria-label real de cada enlace.
+   Para cambiar una fecha, edita su línea "content".
+   --------------------------------------------------------- */
+#approot .sub-menu-items .menuitem.level-2 a.submenu.level-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  text-transform: none;
+}
+
+#approot .sub-menu-items .menuitem.level-2 a.submenu.level-2:hover {
+  background: #F4EDF3;
+}
+
+#approot .sub-menu-items .menuitem.level-2 a.submenu.level-2::after {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #6B5670;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+/* Events */
+#approot .sub-menu-items a.submenu.level-2[aria-label="Madrid"]::after { content: "June 2–4 2027"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Brazil"]::after { content: "[Date]"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Bilbao"]::after { content: "[Date]"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="International Events"]::after { content: "Series across cities"; }
+
+/* Ways to Engage */
+#approot .sub-menu-items a.submenu.level-2[aria-label="Discover"]::after { content: "Get the picture"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Connect"]::after { content: "Find what is relevant"; }
+#approot .sub-menu-items a.submenu.level-2[aria-label="Lead"]::after { content: "Go deeper"; }
+
+/* ---------------------------------------------------------
+   Panel del desplegable como el prototipo (.ddm):
+   esquinas redondeadas, sombra suave y animación al abrir.
+   Selector real: div.sub-menu-modal-content (con .hidden cuando está cerrado).
+   --------------------------------------------------------- */
+#approot .sub-menu-modal-content {
+  border-radius: 18px;
+  padding: 8px;
+  min-width: 250px;
+  box-shadow: 0 18px 48px rgba(35, 6, 46, 0.18);
+  overflow: hidden;
+  transform-origin: top center;
+}
+
+#approot .sub-menu-modal-content:not(.hidden) {
+  animation: ss-dropdown-in 180ms ease-out;
+}
+
+@keyframes ss-dropdown-in {
+  from { opacity: 0; transform: translateY(-6px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Accesibilidad: sin animación si el usuario lo tiene desactivado en su sistema */
+@media (prefers-reduced-motion: reduce) {
+  #approot .sub-menu-modal-content:not(.hidden) {
+    animation: none;
+  }
+}

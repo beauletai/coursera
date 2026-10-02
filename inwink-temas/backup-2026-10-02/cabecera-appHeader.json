@@ -1,0 +1,105 @@
+{
+  "appHeader": {
+    "buttons": {
+      "active": {
+        "backgroundColor": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "backgroundImage": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "border": "none",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "checked": {
+        "backgroundColor": "#EA6A50",
+        "backgroundImage": "none",
+        "border": "1.5px solid #EA6A50",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "hover": {
+        "backgroundColor": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "backgroundImage": "linear-gradient(100deg, #EA6A50, #F14283)",
+        "border": "none",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "standard": {
+        "backgroundColor": "linear-gradient(100deg, #F14283, #EA6A50)",
+        "backgroundImage": "linear-gradient(100deg, #F14283, #EA6A50)",
+        "border": "none",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      }
+    },
+    "colors": {
+      "accent2Color": "#EA6A50",
+      "accentColor": "#F14283",
+      "bgColor": "#FFFFFF",
+      "darkColor": "#23062E",
+      "defaultColor": "#370C3B",
+      "lightColor": "#F1E8F1"
+    },
+    "lightButtons": {
+      "active": {
+        "backgroundColor": "#370C3B",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "checked": {
+        "backgroundColor": "#370C3B",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "hover": {
+        "backgroundColor": "#370C3B",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#FFFFFF",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      },
+      "standard": {
+        "backgroundColor": "transparent",
+        "backgroundImage": "none",
+        "border": "1.5px solid #370C3B",
+        "borderRadius": "999px",
+        "color": "#370C3B",
+        "fontSize": "15px",
+        "fontWeight": "500",
+        "outline": "none"
+      }
+    },
+    "style": {
+      "backgroundColor": "#FFFFFF",
+      "color": "#370C3B"
+    },
+    "logo": "https://api-frontassets.inwink.com/community/7eb8755d-b9bc-f111-a6a9-6045bd93f719/asset/7a78bef6-98bd-f111-a6a9-6045bdf5ca6d/file/image.webp?mw=1920",
+    "settings": {
+      "alignItems": "center",
+      "enableSubMenuArrow": true
+    }
+  }
+}
