@@ -1,11 +1,13 @@
 /* =========================================================
-   South Summit · Cabecera (nav) · Global Styles
-   Pegar como bloque NUEVO en BO > Herramientas webmaster > Estilos globales.
-   Selectores reales tomados del DevTools (#appheadermenu, .menuitem.level-1, a.level-1).
+   South Summit · Cabecera (nav) · Global Styles · v2
+   Sustituye al bloque v1 en BO > Webmaster > Estilos globales (CSS).
+   Selectores reales del DevTools (#appheadermenu, .menuitem.level-1, a.iconlink.level-1),
+   con más especificidad (#approot) para ganar a los estilos propios de inwink.
    ========================================================= */
 
 /* Entradas principales en mayúsculas, 14px, como el prototipo (.menu) */
-#appheadermenu .menuitem.level-1 > a.level-1 {
+#approot #appheadermenu .menuitem.level-1 a.iconlink.level-1,
+#approot #appheadermenu .menuitem.level-1 a.iconlink.level-1 * {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
@@ -13,16 +15,17 @@
 }
 
 /* Más aire entre entradas (prototipo: 22px entre elementos) */
-#appheadermenu .menuitem.level-1 {
-  margin: 0 11px;
+#approot #appheadermenu .menuitem.level-1 {
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
 /* Sign in (última entrada) a la derecha; el resto sigue centrado */
-#appheadermenu {
+#approot #appheadermenu {
   position: relative;
 }
 
-#appheadermenu .menuitem.level-1:last-child {
+#approot #appheadermenu .menuitem.level-1:last-child {
   position: absolute;
   right: 14px;
   top: 50%;
