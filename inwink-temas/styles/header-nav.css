@@ -1,5 +1,5 @@
 /* =========================================================
-   South Summit · Cabecera (nav) · Global Styles · v3
+   South Summit · Cabecera (nav) · Global Styles · v4
    Sustituye al bloque anterior en BO > Webmaster > Estilos globales (CSS).
    Selectores reales del DevTools: #appheadermenu, .menuitem.level-1,
    a.iconlink.level-1, div.sub-menu-button.
@@ -33,6 +33,15 @@
 
 #approot #appheadermenu .sub-menu-button {
   margin-left: 4px;
+}
+
+/* Barra un poco más alta (prototipo ~70px): relleno arriba/abajo, SIN altura fija
+   para no recortar los desplegables (.sub-menu-modal-content) */
+#approot .headercontent.withheaderitems {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  box-sizing: content-box;
+  overflow: visible;
 }
 
 /* Sign in (última entrada) a la derecha; el resto sigue centrado */
